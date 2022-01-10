@@ -30,7 +30,7 @@ Erro ao connectar ao banco de dados h2,
   resolvido com 
    <h3>application.properties</h3> 
     file criando na raiz do projeto com as seguintes configuração...
-
+    Obs: Resolve o problema localmente, quando sober a aplicão o heroku não encontra o banco de dados..
 ```
 spring.datasource.url=jdbc:h2:file:caminho     ex: /home/teste/h2db
 spring.datasource.driverClassName=org.h2.Driver
