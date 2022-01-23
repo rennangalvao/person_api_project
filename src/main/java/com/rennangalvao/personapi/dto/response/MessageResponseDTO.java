@@ -1,4 +1,4 @@
-package com.rennangalvao.personapi.dto;
+package com.rennangalvao.personapi.dto.response;
 
 
 import lombok.Builder;

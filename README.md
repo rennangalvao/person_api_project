@@ -26,27 +26,6 @@ Após executar o comando acima, basta apenas abrir o seguinte endereço e visual
 http://localhost:8080/api/v1/people
 ```
 
-Erro ao connectar ao banco de dados h2, 
-  resolvido com 
-   <h3>application.properties</h3> 
-    file criando na raiz do projeto com as seguintes configuração...
-
-```
-spring.datasource.url=jdbc:h2:file:caminho     ex: /home/teste/h2db
-spring.datasource.driverClassName=org.h2.Driver
-spring.datasource.username=sa
-spring.datasource.password=sa
-
-# H2 Console
-spring.h2.console.enabled=true
-spring.h2.console.path=/h2-console
-
-# JPA
-spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
-spring.jpa.hibernate.ddl-auto=update
-
-``
-
 São necessários os seguintes pré-requisitos para a execução do projeto desenvolvido durante a aula:
 
 * Java 11 ou versões superiores.

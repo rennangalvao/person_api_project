@@ -31,7 +31,7 @@ public class Person {
     private String cpf;
 
 
-    private LocalDate brithDate;
+    private LocalDate birthDate;
 
     // Relacionamento, Chamar somente uma operação para os Phones
     @OneToMany(fetch = FetchType.LAZY, cascade = { CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
